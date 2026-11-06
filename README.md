@@ -108,7 +108,7 @@ An Atlas row labelled "Our bricks" or "Our bricks + published" is a candidate bo
 
 ## Acknowledgements
 
-The search and verification programs were developed with the assistance of Claude (Anthropic). The author is responsible for the contents of this repository.
+The layout of the atlas was made possible by Claude AI (Anthropic), which I used to organise the many parameter sets, sources and calculation methods and to avoid transcription errors.
 
 ## Citation
 
