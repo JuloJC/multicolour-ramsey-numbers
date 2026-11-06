@@ -17,7 +17,7 @@ R(k<sub>1</sub>,…,k<sub>r</sub>) is the least N such that every r-colouring of
 | R(3,4,5,5) | **≥ 770** | 769 | 729 (Rowley 2022, arXiv:2203.13476; survey) | [`R_3_4_5_5_n769_firstrow.txt`](records/R_3_4_5_5_n769_firstrow.txt) | exhaustive |
 | R(3,4,5,6) | **≥ 1065** | 1064 | 865 (deduced from published values by quadrupling; no value published for these exact parameters) | [`R_3_4_5_6_n1064_matrix.txt`](records/R_3_4_5_6_n1064_matrix.txt) (matrix) | exhaustive |
 | R(5,5,5,5,5) | **≥ 44,338** | 44,337 | 41,626 (survey Table XIa; Rowley 2022) | [`R_5_5_5_5_5_n44337_firstrow.txt`](records/R_5_5_5_5_5_n44337_firstrow.txt) | exhaustive (vertex 0) |
-| R<sub>7</sub>(5) = R(5,5,5,5,5,5,5) | **≥ 4,344,970** | 4,344,969 | 3,974,441 (Rowley 2022, Table 2) | [`R_5x5x5x5x5x5x5_n4344969_firstrow.txt`](records/R_5x5x5x5x5x5x5_n4344969_firstrow.txt) | composition theorem (see §4) |
+| R<sub>7</sub>(5) = R(5,5,5,5,5,5,5) | **≥ 4,344,970** | 4,344,969 | 3,974,441 (Rowley 2022, Table 2) | [`R_5_5_5_5_5_5_5_n4344969_firstrow.txt`](records/R_5_5_5_5_5_5_5_n4344969_firstrow.txt) | composition theorem (see §4) |
 
 "Exhaustive" means that the clique search was run on the whole colouring by the verifiers of this repository. "Previous best known to us" is the best value in the tables we used; our search of the literature was not exhaustive (see §6).
 
@@ -95,6 +95,8 @@ An Atlas row labelled "Our bricks" or "Our bricks + published" is a candidate bo
 | `tools/` | `verify.cpp`, `verify.py`, `verify_linear0.cpp`, `compose.py`, `build_all.py`, `build_matrix_R3456.py` |
 | `atlas/` | the Atlas (xlsx and CSV) |
 | `bricks/` | vectors of all bricks used by the Atlas |
+| `library/` | the Atelier Ramsey (C++ source) and the library of bricks as a text file: everything needed to reproduce and update the Atlas ([`library/README.md`](library/README.md)) |
+| `CHANGELOG.md` | history of versions: new bricks, improved Atlas rows, corrections |
 | `results.json`, `SHA256SUMS`, `LICENSE` | the claims in machine-readable form; checksums (`sha256sum -c SHA256SUMS`); MIT for code, CC0 for data |
 
 ## References

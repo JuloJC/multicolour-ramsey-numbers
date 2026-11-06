@@ -118,7 +118,7 @@
       ],
       "lower_bound": 4344970,
       "order_of_colouring": 4344969,
-      "certificate": "records/R_5x5x5x5x5x5x5_n4344969_firstrow.txt",
+      "certificate": "records/R_5_5_5_5_5_5_5_n4344969_firstrow.txt",
       "certificate_format": "first row",
       "previous_best_known_to_us": "3974441 (Rowley 2022, Table 2)",
       "verification": "composition theorem, see README section 4"

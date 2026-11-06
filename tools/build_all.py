@@ -32,6 +32,6 @@ ok &= check("R(3,5,6):  template (5,6,3;136) x K2", "template_5_6_3_m136.txt", 2
 ok &= check("R(3,5,7):  template (5,7,3;188) x K2", "template_5_7_3_m188.txt", 2, "0", [5, 7, 3], "R_3_5_7_n266_firstrow.txt")
 ok &= check("R(3,4,5,5): template (5,3;10) x atom (3,4,5;86)", "template_5_3_m10.txt", 1, read_atom("atom_3_4_5_n86_circulant_firstrow.txt"), [5, 3, 4, 5], "R_3_4_5_5_n769_firstrow.txt")
 ok &= check("R(5,5,5,5,5): template (5,5,3;99) x atom (5,5,5;453)", "template_5_5_3_m99.txt", 2, read_atom("atom_5_5_5_n453_firstrow.txt"), [5] * 5, "R_5_5_5_5_5_n44337_firstrow.txt")
-ok &= check("R_7(5): template (5,5,3;99) x the 5-colour graph", "template_5_5_3_m99.txt", 2, read_row("R_5_5_5_5_5_n44337_firstrow.txt"), [5] * 7, "R_5x5x5x5x5x5x5_n4344969_firstrow.txt")
+ok &= check("R_7(5): template (5,5,3;99) x the 5-colour graph", "template_5_5_3_m99.txt", 2, read_row("R_5_5_5_5_5_n44337_firstrow.txt"), [5] * 7, "R_5_5_5_5_5_5_5_n4344969_firstrow.txt")
 print("ALL IDENTICAL" if ok else "DIFFERENCES FOUND")
 sys.exit(0 if ok else 1)
