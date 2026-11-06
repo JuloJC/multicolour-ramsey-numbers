@@ -1,0 +1,14 @@
+Atlas of multicolour lower bounds: summary by number of colours
+"Breakdown of the 6,426 rows of the Atlas tab, by number of colours, according to the origin of the best result."
+
+Colours,Number of parameter sets,Published,Published (deduced),Published bricks + theorems,Our bricks + published,Our bricks,Tabu
+2,36,36,0,0,0,0,0
+3,120,24,40,37,9,8,2
+4,330,13,73,110,114,20,0
+5,792,4,47,384,324,33,0
+6,1716,4,50,848,785,29,0
+7,3432,2,28,1532,1850,20,0
+Total,6426,83,238,2911,3082,110,2
+
+"Reading. “Published” and “Published (deduced)”: the best result comes from the literature (published value, or deduced from published values by a theorem). “Published bricks + theorems”: built by our planner with published bricks and theorems, without any of our bricks. “Our bricks + published”: built with one of our bricks, which adds a margin. “Our bricks”: built with our bricks, without which we would remain below the best published value or the value deduced from published ones. “Tabu”: non-linear colouring found by tabu search."
+"These rows are not records: for most parameters, no value is published. The eight records of the note are in the Our records tab; the detail of what comes from our bricks is in the Provenance tab."

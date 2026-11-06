@@ -1,0 +1,3 @@
+# template (5,3 ; m=10): period of 9 digits ('J' = joker), phi = 3 lengths before the first joker; template colours 0..0
+3
+000J0JJ0J

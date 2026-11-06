@@ -1,0 +1,3 @@
+# template (5,5,3 ; m=99): period of 98 digits ('J' = joker), phi = 40 lengths before the first joker; template colours 0..1
+40
+1000100100011101111001111011100010010001J100J10000JJ1JJJ1JJJJJJJJJJJJJJJJJJJJJJJJ1JJJ1JJ00001J001J

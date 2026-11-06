@@ -1,0 +1,127 @@
+{
+  "author": "Julien Courties",
+  "date": "2026-11",
+  "note": "previous values are the best known to the author from the tables used; the literature search was not exhaustive; not peer reviewed",
+  "records": [
+    {
+      "number": "R(3,5,5)",
+      "limits": [
+        3,
+        5,
+        5
+      ],
+      "lower_bound": 140,
+      "order_of_colouring": 139,
+      "certificate": "records/R_3_5_5_n139_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "139 (Radziszowski rev. 18, Table XIb)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(3,5,6)",
+      "limits": [
+        3,
+        5,
+        6
+      ],
+      "lower_bound": 192,
+      "order_of_colouring": 191,
+      "certificate": "records/R_3_5_6_n191_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "181 (Radziszowski rev. 18, Table XIb)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(3,5,7)",
+      "limits": [
+        3,
+        5,
+        7
+      ],
+      "lower_bound": 267,
+      "order_of_colouring": 266,
+      "certificate": "records/R_3_5_7_n266_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "241 (Radziszowski rev. 18, Table XIb)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(4,5,5)",
+      "limits": [
+        4,
+        5,
+        5
+      ],
+      "lower_bound": 241,
+      "order_of_colouring": 240,
+      "certificate": "records/R_4_5_5_n240_matrix.txt",
+      "certificate_format": "matrix",
+      "previous_best_known_to_us": "217 (deduced from published values by quadrupling; no value published for these parameters)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(3,4,5,5)",
+      "limits": [
+        3,
+        4,
+        5,
+        5
+      ],
+      "lower_bound": 770,
+      "order_of_colouring": 769,
+      "certificate": "records/R_3_4_5_5_n769_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "729 (Rowley 2022, arXiv:2203.13476)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(3,4,5,6)",
+      "limits": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "lower_bound": 1065,
+      "order_of_colouring": 1064,
+      "certificate": "records/R_3_4_5_6_n1064_matrix.txt",
+      "certificate_format": "matrix",
+      "previous_best_known_to_us": "865 (deduced from published values by quadrupling; no value published for these parameters)",
+      "verification": "exhaustive"
+    },
+    {
+      "number": "R(5,5,5,5,5)",
+      "limits": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "lower_bound": 44338,
+      "order_of_colouring": 44337,
+      "certificate": "records/R_5_5_5_5_5_n44337_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "41626 (Radziszowski rev. 18, Table XIa; Rowley 2022)",
+      "verification": "see README, section 4"
+    },
+    {
+      "number": "R_7(5)",
+      "limits": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "lower_bound": 4344970,
+      "order_of_colouring": 4344969,
+      "certificate": "records/R_5x5x5x5x5x5x5_n4344969_firstrow.txt",
+      "certificate_format": "first row",
+      "previous_best_known_to_us": "3974441 (Rowley 2022, Table 2)",
+      "verification": "composition theorem, see README section 4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Our records: the eight bounds of the note
+
+Problem,Parameters,Our best bound (R ≥),Nature of the comparison
+"R(5,5,5,5,5)","5,5,5,5,5",44338,Published value: Radziszowski rev. 18 Table XIa
+"R(3,4,5,5)","3,4,5,5",770,Published value: Radziszowski rev. 18 (h)
+"R(3,5,6)","3,5,6",192,Published value: Radziszowski rev. 18 Table XIb
+"R(3,5,7)","3,5,7",267,Published value: Radziszowski rev. 18 Table XIb
+"R(3,5,5)","3,5,5",140,Published value: Radziszowski rev. 18 Table XIb
+"R(4,5,5)","4,5,5",241,Value deduced from the tables (no published value for these parameters)
+R₇(5),"5,5,5,5,5,5,5",4344970,"Published value: Rowley 2022, Table 2"
+"R(3,4,5,6)","3,4,5,6",1065,Value deduced from the tables (no published value for these parameters)
