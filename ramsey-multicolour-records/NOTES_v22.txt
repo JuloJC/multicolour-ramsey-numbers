@@ -1,0 +1,13 @@
+Atlas v22 (November 2026) - changelog
+=====================================
+Six new circulant atoms, all verified exhaustively (no forbidden clique in either colour):
+  (10,10 ;  797)  Paley graph P(797)            [the published R(10,10) >= 798 graph, now in composable circulant form]
+  (11,11 ; 1594)  parity doubling of P(797)
+  (12,12 ; 1594)  same colouring (no K11 => no K12)
+  (13,13 ; 2554)  parity doubling of P(1277)
+  (14,14 ; 2986)  parity doubling of P(1493)
+  (15,15 ; 5482)  parity doubling of P(2741)    [verified in 503 min on the author's machine, program Verif_15_15.cpp]
+Parity doubling rule on Z_2p : distance d = p -> colour 0 ; d even -> Paley colour of (d mod p) ; d odd -> opposite colour.
+316 Atlas rows improved (181 in the main Atlas, 135 in the 3-colour 11-15 sheet), all via Rowley templates that
+require linear (circulant) colourings. Examples: R(4,10,10) >= 3984, R(3,11,11) >= 4782, R(4,13,13) >= 12769,
+R(8,15,15) >= 104147. Library updated: library/Atome_Modele.txt ; atom files in atoms/.
